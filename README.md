@@ -1,5 +1,6 @@
 # dbus-p1
-Read gasmeter from a Dutch energy meter via the P1 port, using the DSMR protocols.
+A [Venus](https://github.com/victronenergy/venus/wiki) driver that reads the utility gas meter
+readings from a Dutch energy meter. Using the P1 serial port, DSMR spec.
 
 DSMR is short for Dutch Smart Meter Requirements, somehow related to NTA8130.
 
@@ -20,7 +21,7 @@ I tested it on a Landis + Gyr E350 ZMF110CCtFs2 3-phase meter, with a DSMR 4.2 m
 
 ## installation
 
-Requires [Venus](https://github.com/victronenergy/venus/wiki) v2.12~21 or newer:
+Requires Venus v2.12~21 or newer:
 relies on [pyserial](https://github.com/victronenergy/meta-victronenergy/commit/956c404515c37d0678d52c3afc9628bf68e85a22).
 
 See [here](https://www.victronenergy.com/live/ccgx:root_access) for how to obtain root access to Venus.
