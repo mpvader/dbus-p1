@@ -14,8 +14,9 @@ rate to 1 Hz, which is probably sufficient for ESS.
 
 ## tested meter & cable
 
-Above mod of the serial-starter depends for the ID_MODEL USB property to equal `P1_Converter_Cable`.
-Which is (probably) the P1 Converter Cable V2 as sold here: http://www.smartmeterdashboard.nl/webshop.
+Below explained mod of the serial-starter depends for the ID_MODEL USB property to equal
+`P1_Converter_Cable`. Which is (probably) the P1 Converter Cable V2 as sold here:
+http://www.smartmeterdashboard.nl/webshop.
 
 I tested it on a Landis + Gyr E350 ZMF110CCtFs2 3-phase meter, with a DSMR 4.2 module.
 
