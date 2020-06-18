@@ -10,7 +10,8 @@ The Python code in the repo is basically a wrapper around the
 Adding the power meter readings as well will be trivial. But since my (Dutch) Smart Meter
 only sends an update every 10 seconds, which is too little for proper ESS operation, I have not
 bothered to implement that, yet. Apparently the (recent) DSMR 5 spec increases the update
-rate to 1 Hz, which is probably sufficient for ESS.
+rate to 1 Hz, which is better and will work somewhat, but still work not as good as our
+EM24 meters, that update twice  a second (& have low latency).
 
 ## tested meter & cable
 
