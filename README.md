@@ -2,6 +2,10 @@
 A [Venus](https://github.com/victronenergy/venus/wiki) driver that reads the utility gas meter
 readings from a Dutch energy meter. Using the P1 serial port, DSMR spec.
 
+This code was used with a simple USB-P1 cable straight between GX Device & Dutch Smart Meter as
+already installed in my house by our utility. No Carlo Gavazzi meters, or interface boxes or
+anything else involved.
+
 DSMR is short for Dutch Smart Meter Requirements, somehow related to NTA8130.
 
 The Python code in the repo is basically a wrapper around the
